@@ -9,18 +9,19 @@ body {
 
 .top-banner {
     display: flex;
+    margin-bottom: 100px;
 }
 
-h1 {
+.heading {
     color: rgb(69, 47, 47);
     line-height: 70%;
     font-weight: bold;
 
 }
 
-p {
-    font-style: normal;
-
+.paragraph {
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .link {
@@ -29,9 +30,10 @@ p {
     text-decoration: none;
     border-radius: 15px;
     color: white;
+
 }
 
-.half-container1 {
+.half-top1 {
     margin-left: 50px;
     width: 50%;
     padding: 20px;
@@ -39,13 +41,49 @@ p {
 
 }
 
-.half-container2 {
-    margin-left: 50px;
+.half-top2 {
     width: 50%;
-    padding: 20px;
 
 }
 
-.half-container2 img {
+.half-top2 img {
     width: 100%;
+}
+
+.middle-banner {
+    margin-top: 150px;
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.half-middle1 {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.half-middle1 img {
+    width: 50%;
+    max-height: 75%;
+    padding-top: 80px;
+    margin-left: 20px;
+
+}
+
+.half-middle2 {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 0;
+    padding-top: 50px;
+}
+
+h1 {
+    color: rgb(69, 47, 47);
+    margin-left: 0;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 30px;
 }
