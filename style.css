@@ -87,3 +87,44 @@ p {
     text-align: left;
     margin-bottom: 30px;
 }
+
+.recipe-banner {
+    display: flex;
+}
+
+.recipe-para {
+    text-align: center;
+}
+
+.recipe-part1 img {
+    width: 100%;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+
+.recipe-part1 {
+    width: 40%;
+    border: 11px solid #ffffff;
+    margin-left: 120px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px grey;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.recipe-part2 img {
+    width: 100%;
+    border: 10px solid white;
+    border-radius: 10px;
+    
+}
+
+.recipe-part2 {
+    width: 40%;
+    border: 11px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px  5px grey;
+    text-align: center;
+
+}
