@@ -90,6 +90,7 @@ p {
 
 .recipe-banner {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .recipe-para {
@@ -117,14 +118,44 @@ p {
     width: 100%;
     border: 10px solid white;
     border-radius: 10px;
-    
+
 }
 
 .recipe-part2 {
     width: 40%;
     border: 11px solid #ffffff;
     border-radius: 10px;
-    box-shadow: 2px 2px  5px grey;
+    box-shadow: 2px 2px 5px grey;
     text-align: center;
 
+}
+
+/* 
+.followers-part {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.part-four {
+    margin-left: 220px;
+
+    display: flex;
+} */
+.follower-part {
+    width: 30%;
+    display: flex;
+    margin-left: 100px;
+    padding: 50px 400px;
+    font-weight: bold;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    
+}
+.part-four{
+    text-justify:inter-word;
+    font-size: 20px;
+    
 }
