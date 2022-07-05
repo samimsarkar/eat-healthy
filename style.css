@@ -16,6 +16,7 @@ body {
     color: rgb(69, 47, 47);
     line-height: 70%;
     font-weight: bold;
+    font-size: 50px;
 
 }
 
@@ -90,7 +91,10 @@ p {
 
 .recipe-banner {
     display: flex;
+    margin: 0 auto;
     margin-bottom: 100px;
+    margin-right: 100px;
+
 }
 
 .recipe-para {
@@ -100,7 +104,6 @@ p {
 .recipe-part1 img {
     width: 100%;
     border-radius: 10px;
-    border: 10px solid white;
 }
 
 .recipe-part1 {
@@ -108,15 +111,14 @@ p {
     border: 11px solid #ffffff;
     margin-left: 120px;
     margin-right: 20px;
-    box-shadow: 2px 2px 5px grey;
-
+    box-shadow: 2px 2px 50px grey;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
 
 .recipe-part2 img {
     width: 100%;
-    border: 10px solid white;
     border-radius: 10px;
 
 }
@@ -125,8 +127,9 @@ p {
     width: 40%;
     border: 11px solid #ffffff;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 50px grey;
     text-align: center;
+    padding: 20px;
 
 }
 
@@ -145,17 +148,45 @@ p {
     display: flex;
 } */
 .follower-part {
-    width: 30%;
-    display: flex;
+    width: 85%;
+    margin: 0 auto;
     margin-left: 100px;
-    padding: 50px 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
     font-weight: bold;
+    text-align: center;
     box-shadow: 10px 10px 20px gray;
     border-radius: 10px;
-    
+
+
 }
-.part-four{
-    text-justify:inter-word;
+
+.part-four {
     font-size: 20px;
-    
+
+}
+
+.footer {
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    color: lightgrey;
+    margin-top: 100px;
+
+
+}
+
+.footer>p {
+    text-align: center;
+}
+
+.follower-part>h1 {
+    font-weight: 900;
+}
+
+.color {
+    color: tomato;
 }
